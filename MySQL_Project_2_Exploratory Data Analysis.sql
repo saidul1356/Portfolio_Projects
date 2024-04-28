@@ -306,3 +306,16 @@ SELECT `date`, SUM(total_laid_off) OVER (ORDER BY `date` ASC) as rolling_total_l
 FROM date_CTE
 ORDER BY `date` ASC;
 
+
+-- Project Summary: 
+-- This project showcases an exploratory data analysis (EDA) of global layoffs using MySQL. 
+-- The dataset encompasses information regarding layoffs across various companies, industries, and regions. 
+-- Through meticulous analysis, the project aims to uncover trends, patterns, and outliers within the data, providing valuable insights into the ramifications of layoffs on a global scale.
+-- The analysis pipeline involves cleaning and preprocessing the dataset to ensure consistency and accuracy. 
+-- Noteworthy steps include identifying companies with the largest single-day layoffs and those with the most cumulative layoffs over time. 
+-- Geographical and sector-specific trends are explored by analyzing layoffs based on location, industry, and company stage. 
+-- Additionally, the severity of layoffs as a percentage of total employees is scrutinized to gauge the impact more precisely. 
+-- Furthermore, top companies with the most layoffs each year are identified to discern recurring patterns.
+-- Utilizing SQL queries, the project extracts, transforms, and analyzes data stored in a MySQL database. 
+-- Detailed comments are provided within the code, elucidating each step of the analysis and offering context for the queries utilized. 
+-- This project serves as a valuable resource for businesses, researchers, and policymakers interested in understanding the dynamic landscape of layoffs worldwide.
